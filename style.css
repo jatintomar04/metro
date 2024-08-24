@@ -1,0 +1,444 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    height: auto;
+    width: 100%;
+    background-color: #33435b1f;
+}
+
+
+.container-fluid .carousel-item img {
+    height: 420px;
+}
+.container-fluid .navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #002D72;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 600px;
+}
+.navbar img {
+    height: auto;
+    width: 180px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.container-fluid .navbar button {
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+.container-fluid .slide {
+    height: 70%;
+    width: 100%;
+    padding: 15px;
+}
+
+.container-fluid .box-section {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.container-fluid .box-section .box {
+    height: 150px;
+    width: 290px;
+    background-color: rgba(169, 240, 240, 0.559);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid .box-section .box i {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: rgb(17, 17, 63);
+}
+.container-fluid .box-section .box a {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(27, 27, 90);
+}
+.second-page {
+    height: auto;
+    width: 100%;
+    background-color: #33435b1f;
+    padding-bottom: 20px;
+}
+    
+
+.heading {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-left: 35px;
+    
+}
+.heading h1 {
+    color: rgb(53, 53, 181);
+    font-size: 22px;
+}
+.heading #second {
+    padding-left: 600px;
+}
+.second-page .box-section {
+    height: 220px;
+    width: 100%;
+  
+    display: flex;
+}
+.second-page .box-section .left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-page .box-section .left .box {
+    background-color: rgb(255, 255, 255);
+}
+
+.second-page .box-section .right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-page .box-section .box {
+    height: 190px;
+    width: 180px;
+    border-radius: 2px;
+   
+ 
+    padding: 10px;
+}
+.second-page .box-section .right .box {
+    background-color: #0059e4;;
+}
+.second-page .box-section .right .box h3 {
+    color: white;
+
+}
+.second-page .box-section .left .box  i {
+    font-size: 50px;
+    color: blue;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.second-page .box-section .right .box i {
+    font-size: 50px;
+    color: gray;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.img-part {
+    height: 400px;
+    width: 100%;
+    background-color: #33435b1f;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+   
+}
+.img-part .box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #ffed00;
+   
+    
+}
+.img-part .left {
+    height: 100%;
+    width: 32%;
+    padding: 20px;
+} 
+.img-part .left h1 {
+    font-weight: 1000px;
+    padding-bottom: 20px;
+}
+.img-part .box .right {
+    height: 100%;
+    width: 68%;
+    background-image: url(image/Apply\ for\ METRO\ Card\ Hero\ Teaser\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 13% 100%);
+
+
+}
+.last-sec {
+    width: 100%;
+    height: 250px;
+     background-color: #33435b1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.last-sec .box {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.last-sec i {
+    font-size: 50px;
+    color: rgb(13, 13, 214);
+    
+}
+.last-sec h2 {
+    font-size: 20px;
+}
+.last-sec p {
+    text-align: center;
+}
+.last-sec a {
+    color: black;
+    
+}
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color:white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.footer .box {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.footer .box h1 {
+    color: rgb(37, 37, 105);
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer .box a {
+    color:rgb(37, 37, 105) ;
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+
+.footer .box p {
+    padding-top: 20px;
+}
+
+.footer .box h6 {
+    padding-top: 12px;
+    font-size: 11px;
+    color: rgb(28, 28, 109);
+    padding-bottom: 20px;
+}
+.footer .box i {
+    color: rgb(49, 49, 116);
+}
+.note-section {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(169, 240, 240, 0.559);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-section p {
+    font-size: 15px;
+}
+.last-section {
+    width: 100%;
+    height: 100px;
+    background-color: #002D72;
+}
+.last-section .top {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.last-section .top p {
+    padding-left: 20px;
+}
+.last-section .bottom {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.last-section .bottom a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.last-section .bottom #last {
+    padding-left: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .container-fluid {
+        height: auto;
+        width: 100%;
+        padding: 0%;
+    }
+    .container-fluid .navbar {
+        height: 60px;
+        width: 100%;
+        padding-right: 0%;
+        display: flex;
+        justify-content: end;
+    }
+    .container-fluid .navbar img {
+        height: auto;
+        width: 150px;
+        margin-right: 280px;
+    }
+    .container-fluid .navbar button {
+        height: 30px;
+        width: 130px;
+        font-size: 14px;
+         margin-right: 20px;
+    }
+    .container-fluid .slide {
+        padding-top: 10px;
+        height: auto;
+        width: 100%;
+    }
+    .container-fluid .box-section {
+        height: auto;
+        width:100%;
+    }
+    .container-fluid .box-section .box { 
+        height: 120px;
+        width: 120px;
+    }
+    .container-fluid .box-section .box i {
+        font-size: 20px;
+    }
+    .container-fluid .box-section .box a {
+        font-size: 12px;
+    }
+    .second-page {
+        height: auto;
+        width: 100%;
+        padding: 0%;
+    }
+    .second-page .heading {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .second-page .heading #second {
+        padding: 0%;
+        padding-right: 25px;
+    }
+    .second-page .box-section .box {
+        height: 150px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    .second-page .box-section {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+    .second-page .box-section .left {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .second-page .box-section .right {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .second-page .box-section .box h3 {
+        font-size: 15px;
+    }
+    .img-part {
+        height: 300px;
+        width: 100%;
+    }
+    .last-sec  {
+        height: auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer .box {
+        height: auto;
+        width: 180px;
+        padding: 10px;
+    }
+    .footer .box h1 {
+        font-size: 15px;
+    }
+    .footer .box a {
+        font-size: 12px;
+    }
+    .note-section {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .note-section p{
+        font-size: 12px;
+    }
+    .last-section {
+        height: auto;
+        width: 100%;
+    }
+    .last-section .top {
+        height: 30px;
+        width: 100%;
+    
+    }
+    .last-section .top p {
+        font-size: 15px;
+    }
+    .last-section .bottom{
+        height: 30px;
+        width: 100%;
+    }
+    .last-section .bottom a {
+         font-size: 15px;
+    }
+
+
+
+
+    
+    
+}
